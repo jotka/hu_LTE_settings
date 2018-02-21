@@ -13,7 +13,7 @@
 
 where:
 - NetworkMode: 3 - I don't know yet ;), probably connected or something
-- NetworkBand: BTS band to use - 3FFFFFFF is probably LTE
+- NetworkBand: BTS band to use - 3FFFFFFF is LTE
 - LTEBand: LTE band to use:
     - `80000` is LTE 800
     - `4` is LTE 1800
@@ -41,7 +41,7 @@ function setLTEBand(band) {
 
 ```
 
-and then juest execute, for example:
+and then just execute, for example:
 
 ```
 setLTEBand('800_1800')
